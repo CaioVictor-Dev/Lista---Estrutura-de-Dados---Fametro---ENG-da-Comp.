@@ -1,0 +1,45 @@
+1. O que significa alocação estática de memória para um conjunto de elementos?
+R: Significa que a quantidade de memória necessária para o conjunto é reservada no momento da compilação e possui um tamanho fixo durante toda a execução.
+
+2. Qual a diferença entre alocação estática e alocação dinâmica?
+R: Estática ocorre na compilação/entrada no escopo, tem tamanho fixo e localiza-se na stack (pilha). Dinâmica ocorre na execução (runtime), tem tamanho variável e localiza-se na heap (memória livre), exigindo controle manual.
+
+3. O que é um ponteiro?
+R: É uma variável que armazena um endereço de memória, apontando para a localização de outro dado ou variável.
+
+4. O que é uma estrutura de dados homogêneos?
+R: É uma estrutura que armazena elementos que são todos do mesmo tipo de dado (Ex: Vetor de inteiros).
+
+5. O que é uma estrutura de dados heterogêneos?
+R: É uma estrutura que pode armazenar elementos de tipos de dados diferentes (Ex: Struct ou Registro).
+
+6. Qual a vantagem das listas sobre os vetores em termos de consumo de memória? Exemplifique.
+R: A vantagem é a alocação exata da memória necessária (dinâmica), evitando o desperdício de espaço pré-alocado que ocorre nos vetores de tamanho fixo. Ex: Um vetor pré-alocado com 1000 posições desperdiça memória se apenas 10 forem usadas.
+
+7. O que é uma lista simplesmente encadeada? Apresente um diagrama para ilustrar essa estrutura de dados.
+R: É uma coleção linear de nós onde cada nó contém o dado e um ponteiro apenas para o próximo nó.
+
+8. O que é uma lista duplamente encadeada? Apresente um diagrama para ilustrar essa estrutura de dados.
+R: É uma coleção de nós onde cada nó contém o dado, um ponteiro para o próximo nó e um ponteiro para o nó anterior.
+
+9. O que é uma lista duplamente encadeada? Apresente um diagrama para ilustrar essa estrutura de dados.
+R: (Resposta repetida da pergunta 8. Veja a resposta acima).
+
+10. Explique o funcionamento do algoritmo de busca binária e sequencial.
+R:
+Sequencial: Compara o item procurado com cada elemento da lista, do início ao fim ($O(n)$).
+
+Binária: Exige lista ordenada. Compara o item com o elemento central e descarta metade da lista a cada passo, reduzindo a busca logaritmicamente ($O(\log n)$).
+
+11. Explique o funcionamento dos seguintes algoritmos de ordenação: Insertion sort, Selection sort, Merge sort, Count sort, Quicksort.
+R:
+
+Insertion Sort: Insere um elemento da porção não ordenada na posição correta da porção ordenada, deslocando os maiores.
+
+Selection Sort: Encontra o menor elemento na porção não ordenada e o troca com o primeiro elemento dessa porção.
+
+Merge Sort: Divide a lista recursivamente até ter 1 elemento e, em seguida, intercala (mescla) as sub-listas ordenadamente.
+
+Count Sort: Conta a frequência de cada elemento (restrito a inteiros de pequeno intervalo) para determinar diretamente suas posições finais.
+
+Quicksort: Escolhe um pivô e particiona a lista, colocando todos os menores de um lado e todos os maiores do outro, e então recursivamente ordena as partições.
